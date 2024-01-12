@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+.btn {
+  color: white;
+  border-radius: 8px;
+  background: #ff900e;
+  padding: 14px 30px;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+}
+
+/*header areya styel*/
+header {
+  background: rgba(255, 144, 14, 0.1);
+}
+nav {
+  padding-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_titel {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #131313;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  color: #424242;
+  font-size: 1rem;
+  margin-right: 2rem;
+  font-weight: 500;
+}
+
+.header_section {
+  margin-top: 100px;
+}
+.header_titel {
+  width: 52%;
+  margin: 0 auto;
+  text-align: center;
+}
+.header_titel_tex {
+  font-size: 3.52rem;
+  font-weight: 700;
+  color: #131313;
+}
+
+.header_decoption {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #424242;
+  line-height: 1.7rem;
+  margin-bottom: 2rem;
+}
+.header_img_areya {
+  margin-top: 3rem;
+}
+.header_img_areya img {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/* resposive styel */
+
+@media screen and (max-width: 576px) {
+  .header_titel {
+    width: 100%;
+  }
+  nav {
+    flex-direction: column;
+  }
+  ul {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 960px) {
+  .header_titel {
+    width: 100%;
+  }
+  nav {
+    flex-direction: column;
+  }
+  ul {
+    margin-top: 2rem;
+  }
+}
