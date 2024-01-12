@@ -120,6 +120,48 @@ nav ul li {
   line-height: 1.8rem;
   margin: 1rem 0 2rem 0;
 }
+/*version areya styel*/
+
+.version_areya {
+  display: flex;
+  align-items: center;
+  margin-top: 8rem;
+}
+.version_titel_head {
+  font-size: 2.8rem;
+  color: #131313;
+  font-weight: 700;
+}
+.verson_descoption {
+  margin: 1rem 0;
+}
+.version_section_areya {
+  width: 50%;
+  padding: 0 1.67rem;
+}
+
+.version_img_areya {
+  width: 50%;
+}
+.version_img_areya img {
+  width: 90%;
+  height: 100%;
+  position: relative;
+  left: 2rem;
+  object-fit: cover;
+}
+
+.Year_areya {
+  background-color: #ff900e;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  position: relative;
+  bottom: 4rem;
+}
+.yera_titel {
+  font-size: 3.5rem;
+}
 /* resposive styel */
 
 @media screen and (max-width: 576px) {
